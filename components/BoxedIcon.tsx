@@ -7,6 +7,7 @@ export type BoxedIconProps = {
 };
 
 const BoxedIcon = ({ name, backgroundColor }: BoxedIconProps) => {
+  
   return (
     <View style={{ backgroundColor, padding: 4, borderRadius: 6 }}>
       <Ionicons name={name} size={22} color={'#fff'} />

@@ -23,6 +23,7 @@ const SegmentedControl: React.FC<SegmentedControlProps> = React.memo(
     const itemWidth = (segmentedControlWidth - internalPadding) / options.length;
 
     const rStyle = useAnimatedStyle(() => {
+      
       return {
         left: withTiming(itemWidth * options.indexOf(selectedOption) + internalPadding / 2),
       };

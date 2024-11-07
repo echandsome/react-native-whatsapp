@@ -5,9 +5,11 @@ import { Animated, StyleSheet, Text, View, I18nManager } from 'react-native';
 
 import { RectButton } from 'react-native-gesture-handler';
 
+
 import Swipeable from 'react-native-gesture-handler/Swipeable';
 
 export default class AppleStyleSwipeableRow extends Component<PropsWithChildren<unknown>> {
+  
   private renderRightAction = (
     text: string,
     color: string,

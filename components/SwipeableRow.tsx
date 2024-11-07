@@ -8,6 +8,7 @@ import Swipeable from 'react-native-gesture-handler/Swipeable';
 export default class SwipeableRow extends Component<
   PropsWithChildren<unknown & { onDelete: () => void }>
 > {
+  
   private renderRightActions = (
     progress: Animated.AnimatedInterpolation<number>,
     _dragAnimatedValue: Animated.AnimatedInterpolation<number>
