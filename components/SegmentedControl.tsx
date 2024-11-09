@@ -2,11 +2,13 @@ import Colors from '@/constants/Colors';
 import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View, useWindowDimensions } from 'react-native';
 import Animated, { useAnimatedStyle, withTiming } from 'react-native-reanimated';
+
 const Palette = {
   baseGray05: Colors.lightGray,
   baseGray80: '#ff00ff',
   background: '#fff',
 };
+
 type SegmentedControlProps = {
   options: string[];
   selectedOption: string;

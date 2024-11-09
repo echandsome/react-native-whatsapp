@@ -16,10 +16,12 @@ export default class AppleStyleSwipeableRow extends Component<PropsWithChildren<
     x: number,
     progress: Animated.AnimatedInterpolation<number>
   ) => {
+
     const trans = progress.interpolate({
       inputRange: [0, 1],
       outputRange: [x, 0],
     });
+    
     const pressHandler = () => {
       this.close();
       // eslint-disable-next-line no-alert

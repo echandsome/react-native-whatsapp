@@ -13,5 +13,6 @@ const BoxedIcon = ({ name, backgroundColor }: BoxedIconProps) => {
       <Ionicons name={name} size={22} color={'#fff'} />
     </View>
   );
+  
 };
 export default BoxedIcon;

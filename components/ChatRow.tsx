@@ -16,6 +16,7 @@ export interface ChatRowProps {
 }
 
 const ChatRow: FC<ChatRowProps> = ({ id, from, date, img, msg, read, unreadCount }) => {
+  
   return (
     <AppleStyleSwipeableRow>
       <Link href={`/(tabs)/chats/${id}`} asChild>
