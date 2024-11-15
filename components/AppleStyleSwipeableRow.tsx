@@ -62,9 +62,11 @@ export default class AppleStyleSwipeableRow extends Component<PropsWithChildren<
   private updateRef = (ref: Swipeable) => {
     this.swipeableRow = ref;
   };
+  
   private close = () => {
     this.swipeableRow?.close();
   };
+
   render() {
     const { children } = this.props;
     return (
