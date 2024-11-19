@@ -11,7 +11,6 @@ const Page = () => {
   const openLink = () => {
     Linking.openURL('https://youtube.com')
   }
-
   return (
     <View style={styles.container}>
       <Image source={{ uri: welcome_image }} style={styles.welcome} />
